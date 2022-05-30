@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Descuentos</title>
+</head>
+<body>
+	<header>
+		<h1>Porcentajes y descuentos</h1>
+		<p>
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt numquam cumque est ipsam sit itaque dolorem fugit, natus rem quae iste ipsa commodi praesentium alias assumenda debitis veritatis? Voluptatum, pariatur.
+		</p>
+	</header>
+	<section>
+		<h2>Calcula el precio a pagar de tus productos con descuento.</h2>
+
+		<form>
+			<label for="InputPrice">Precio original:</label>
+			<input type="int" id="InputPrice" />
+
+			<label for="InputDiscount">Descuento: </label>
+			<input type="int" id="InputDiscount">
+
+			<button 
+				type="button" 
+				onclick="onClickCalculatePriceDiscount()">
+				Calcular precio con descuento
+			</button>
+
+			<p id="ResultP"></p>
+		</form>
+	</section>
+
+	
+	<script src="descuentos.js"></script>
+</body>
+</html>
